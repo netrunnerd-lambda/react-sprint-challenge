@@ -1,0 +1,38 @@
+html {
+  background-color: palegoldenrod;
+}
+
+#root {
+  text-align: center;
+}
+
+.doggos {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+  justify-content: space-evenly;
+}
+
+.doggos img {
+  border: 3px solid palevioletred;
+  border-radius: 5px;
+  max-height: 80%;
+  max-width: 25%;
+}
+
+.fetcher {
+  background-color: palevioletred;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  transition: 0.5s;
+}
+
+.fetcher:hover {
+  background-color: paleturquoise;
+  border-color: paleturquoise;
+  color: black;
+  cursor: pointer;
+}
