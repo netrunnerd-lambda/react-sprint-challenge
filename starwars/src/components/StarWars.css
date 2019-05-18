@@ -34,6 +34,6 @@
   text-transform: uppercase;
 }
 
-.character-profile ul > li span {
+.character-profile ul > li .detail {
   font-weight: normal;
 }
